@@ -71,6 +71,7 @@ span {
     font-family: Fixel;
     font-size: 15px;
     cursor: pointer;
+    color: black;
 }
 
 .writer {
@@ -86,6 +87,8 @@ span {
     cursor: pointer;
 }
 
-@media (max-width: 768px) {
-    
+h3 {
+    background-color: black;
+    font-family: Fixel;
+    font-weight: normal;
 }
