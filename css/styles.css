@@ -1,0 +1,91 @@
+@font-face {
+    font-family: Fixel;
+    src: url('fonts/fixel-variable.ttf') format('truetype');
+}
+
+body {
+    font-family: Fixel;
+    background-color: #CAC8B6;
+}
+
+.header {
+    margin-left: 14px;
+    margin-right: 14px;
+    margin-bottom: 40px;
+}
+
+.Title {
+    margin-top: 28px;
+    font-family: 'Source Serif Pro';
+    margin-bottom: 0;
+}
+
+.Description {
+    font-weight: light;
+    margin-top: 10px;
+}
+
+.trending-catches {
+    margin-left: 14px;
+}
+
+.Trending {
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+span {
+    font-family: 'Source Serif Pro';
+}
+
+.articles {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.article {
+    background-color: #D8D8D8;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 20px;
+    min-width: 200px;
+    flex: 0 0 auto;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.article:hover {
+    transform: scale(1.05);
+}
+
+.write-button {
+    border: none;
+    border-radius: 100px;
+    height: 40px;
+    width: 230px;
+    background-color: #D8D8D8;
+    font-family: Fixel;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.writer {
+    display: flex;
+    justify-content: center;
+    transition: transform 0.3s;
+    cursor: pointer;
+    display: fixed;
+}
+
+.writer:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    
+}
