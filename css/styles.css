@@ -65,7 +65,7 @@ span {
     transform: scale(1.05);
 }
 
-.write-button {
+.write-button, .back-button {
     border: none;
     border-radius: 100px;
     height: 40px;
@@ -75,17 +75,20 @@ span {
     font-size: 15px;
     cursor: pointer;
     color: black;
+    margin: 10px 0;
 }
 
-.writer {
+.writer, .back {
     display: flex;
     justify-content: center;
     transition: transform 0.3s;
     cursor: pointer;
-    display: fixed;
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
 }
 
-.writer:hover {
+.writer:hover, .back:hover {
     transform: scale(1.05);
     cursor: pointer;
 }
@@ -104,5 +107,18 @@ h3 {
 @keyframes slideOut {
     to {
         transform: translateX(-100%);
+    }
+}
+
+.slide-in {
+    animation: slideIn 0.5s forwards;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
     }
 }
