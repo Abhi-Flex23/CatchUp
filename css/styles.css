@@ -6,6 +6,9 @@
 body {
     font-family: Fixel;
     background-color: #CAC8B6;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 .header {
@@ -91,4 +94,15 @@ h3 {
     color: black;
     font-family: Fixel;
     font-weight: bold;
+}
+
+/* Animation styles */
+.slide-out {
+    animation: slideOut 0.5s forwards;
+}
+
+@keyframes slideOut {
+    to {
+        transform: translateX(-100%);
+    }
 }
