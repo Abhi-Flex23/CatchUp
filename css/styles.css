@@ -69,13 +69,20 @@ span {
     border: none;
     border-radius: 100px;
     height: 40px;
-    width: 230px;
     background-color: #D8D8D8;
     font-family: Fixel;
     font-size: 15px;
     cursor: pointer;
     color: black;
     margin: 10px 0;
+}
+
+.back-button {
+    width: 150px;
+}
+
+.write-button {
+    width: 230px;
 }
 
 .writer, .back {
@@ -86,6 +93,7 @@ span {
     position: fixed;
     bottom: 20px;
     width: 100%;
+    margin-bottom: 25px;
 }
 
 .writer:hover, .back:hover {
