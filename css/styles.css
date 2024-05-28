@@ -65,7 +65,7 @@ span {
     transform: scale(1.05);
 }
 
-.write-button, .back-button {
+.write-button {
     border: none;
     border-radius: 100px;
     height: 40px;
@@ -76,17 +76,10 @@ span {
     color: black;
     margin: 10px 0;
     margin-bottom: 20px;
-}
-
-.back-button {
-    width: 150px;
-}
-
-.write-button {
     width: 230px;
 }
 
-.writer, .back {
+.writer {
     display: flex;
     justify-content: center;
     transition: transform 0.3s;
@@ -101,10 +94,26 @@ span {
     cursor: pointer;
 }
 
+.back {
+  margin-left: 14px;
+  margin-top: 28px;
+}
+
+.back-button {
+    border: none;
+    border-radius: 100px;
+    height: 30px;
+    background-color: #D8D8D8;
+    font-family: Fixel;
+    font-size: 15px;
+    cursor: pointer;
+    color: black;
+}
+
 h3 {
     color: black;
     font-family: Fixel;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 /* Animation styles */
