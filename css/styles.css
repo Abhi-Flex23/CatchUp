@@ -59,7 +59,7 @@ span {
     flex: 0 0 auto;
     cursor: pointer;
     transition: transform 0.3s;
-    text-decoration: none;
+    text-decoration-line: none;
     color: black;
 }
 
